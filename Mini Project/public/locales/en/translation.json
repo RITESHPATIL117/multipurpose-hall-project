@@ -1,0 +1,41 @@
+{
+  "welcome": "Event Hall Booking",
+  "language": "Language",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "events": "Events",
+    "aboutUs": "About Us",
+    "ourServices": "Our Services",
+    "facilities": "Facilities",
+    "weddings": "Weddings",
+    "corporate": "Corporate Events",
+    "social": "Social Events"
+  },
+  "event": {
+    "title": "Event Details",
+    "date": "Event Date",
+    "time": "Event Time",
+    "location": "Location",
+    "description": "Description",
+    "capacity": "Capacity",
+    "price": "Price",
+    "book": "Book Now",
+    "submit": "Submit Booking",
+    "reset": "Reset Form"
+  },
+  "form": {
+    "name": "Your Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "guests": "Number of Guests",
+    "requirements": "Special Requirements"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit"
+  }
+} 

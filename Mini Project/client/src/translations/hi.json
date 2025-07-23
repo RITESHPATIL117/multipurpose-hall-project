@@ -1,0 +1,22 @@
+{
+  "common": {
+    "booking": "बुकिंग",
+    "payment": "भुगतान",
+    "services": "सेवाएं",
+    "totalAmount": "कुल राशि",
+    "date": "तारीख",
+    "time": "समय",
+    "guests": "अतिथि",
+    "eventType": "कार्यक्रम का प्रकार"
+  },
+  "payment": {
+    "paymentDetails": "भुगतान विवरण",
+    "creditDebitCard": "क्रेडिट/डेबिट कार्ड",
+    "upiPayment": "यूपीआई भुगतान",
+    "selectUpiApp": "यूपीआई ऐप चुनें",
+    "pay": "भुगतान करें",
+    "bookingSummary": "बुकिंग सारांश",
+    "paymentSuccessful": "भुगतान सफल! आपकी बुकिंग की पुष्टि हो गई है।",
+    "paymentError": "आपके भुगतान को संसाधित करने में त्रुटि हुई। कृपया पुनः प्रयास करें।"
+  }
+} 

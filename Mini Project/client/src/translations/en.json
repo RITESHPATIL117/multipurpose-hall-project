@@ -1,0 +1,22 @@
+{
+  "common": {
+    "booking": "Booking",
+    "payment": "Payment",
+    "services": "Services",
+    "totalAmount": "Total Amount",
+    "date": "Date",
+    "time": "Time",
+    "guests": "Guests",
+    "eventType": "Event Type"
+  },
+  "payment": {
+    "paymentDetails": "Payment Details",
+    "creditDebitCard": "Credit/Debit Card",
+    "upiPayment": "UPI Payment",
+    "selectUpiApp": "Select UPI App",
+    "pay": "Pay",
+    "bookingSummary": "Booking Summary",
+    "paymentSuccessful": "Payment successful! Your booking is confirmed.",
+    "paymentError": "There was an error processing your payment. Please try again."
+  }
+} 

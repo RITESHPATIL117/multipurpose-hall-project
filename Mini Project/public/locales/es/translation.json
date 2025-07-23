@@ -1,0 +1,34 @@
+{
+  "welcome": "Bienvenido a la Reserva de Salones para Eventos",
+  "language": "Idioma",
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "event": {
+    "title": "Detalles del Evento",
+    "date": "Fecha del Evento",
+    "time": "Hora del Evento",
+    "location": "Ubicación",
+    "description": "Descripción",
+    "capacity": "Capacidad",
+    "price": "Precio",
+    "book": "Reservar Ahora",
+    "submit": "Enviar Reserva",
+    "reset": "Restablecer Formulario"
+  },
+  "form": {
+    "name": "Su Nombre",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "guests": "Número de Invitados",
+    "requirements": "Requisitos Especiales"
+  },
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar"
+  }
+} 

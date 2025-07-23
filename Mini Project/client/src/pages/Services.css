@@ -1,0 +1,223 @@
+.services-page-wrapper {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.services-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.services-header p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.service-card {
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.service-card img {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  border-bottom: 1px solid #e2e8f0;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover img {
+  transform: scale(1.05);
+}
+
+.service-card h3 {
+  color: #2563eb;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.service-card p {
+  color: #64748b;
+  text-align: center;
+  min-height: 60px;
+  margin-bottom: 1rem;
+}
+
+.service-card ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  color: #64748b;
+}
+
+.service-card li {
+  margin-bottom: 0.25rem;
+}
+
+.service-card button {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin-top: auto;
+}
+
+.service-card button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+/* Custom Package Section */
+.custom-package {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 4rem 0;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.custom-package h2 {
+  color: #16a34a;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.custom-package p {
+  color: #64748b;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-package button {
+  background-color: #16a34a;
+  color: white;
+  padding: 0.875rem 2.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+  min-width: 200px;
+}
+
+.custom-package button:hover {
+  background-color: #15803d;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .custom-package {
+    width: 100%;
+    max-width: 90%;
+    margin: 3rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .service-card {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .custom-package {
+    width: 100%;
+    max-width: 90%;
+    margin: 2.5rem 0;
+    padding: 2rem;
+  }
+  
+  .custom-package h2 {
+    font-size: 1.5rem;
+  }
+  
+  .custom-package p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .services-page-wrapper {
+    padding: 20px 0;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .custom-package {
+    width: 100%;
+    max-width: 95%;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .custom-package button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    min-width: 180px;
+  }
+} 

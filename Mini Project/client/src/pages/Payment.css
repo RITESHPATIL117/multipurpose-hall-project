@@ -1,0 +1,271 @@
+.payment-page {
+  padding: 120px 2rem 4rem;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.payment-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.booking-summary {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.booking-summary h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.summary-details {
+  color: #666;
+}
+
+.summary-details p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.summary-details ul {
+  list-style: none;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.summary-details li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.summary-details li::before {
+  content: "•";
+  color: #3498db;
+  position: absolute;
+  left: 0;
+}
+
+.total-amount {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.payment-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.payment-section h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.payment-methods {
+  margin-top: 1rem;
+}
+
+.payment-method-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.payment-tab {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background: none;
+  color: #666;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.payment-tab:hover {
+  background: #f8f9fa;
+  color: #333;
+}
+
+.payment-tab.active {
+  background: #3498db;
+  color: white;
+}
+
+.upi-payment-section {
+  padding: 1rem 0;
+}
+
+.upi-payment-section h3 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.upi-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.upi-option {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upi-option:hover {
+  border-color: #3498db;
+  background: #f8f9fa;
+}
+
+.upi-option.selected {
+  border-color: #3498db;
+  background: #ebf5ff;
+}
+
+.upi-option img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.upi-option span {
+  font-size: 1rem;
+  color: #333;
+}
+
+.upi-pay-button {
+  width: 100%;
+  padding: 1rem;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upi-pay-button:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+.upi-pay-button:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.language-selector {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.language-radio-group {
+  display: flex;
+  gap: 1rem;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.language-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.language-radio-label:hover {
+  background: #f5f5f5;
+}
+
+.language-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.language-radio:checked {
+  border-color: #007bff;
+}
+
+.language-radio:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background: #007bff;
+  border-radius: 50%;
+}
+
+.language-name {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .payment-page {
+    padding: 100px 1rem 2rem;
+  }
+
+  .payment-container {
+    grid-template-columns: 1fr;
+  }
+
+  .booking-summary,
+  .payment-section {
+    padding: 1.5rem;
+  }
+
+  .upi-options {
+    grid-template-columns: 1fr;
+  }
+} 

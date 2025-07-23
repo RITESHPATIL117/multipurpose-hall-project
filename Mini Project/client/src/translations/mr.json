@@ -1,0 +1,22 @@
+{
+  "common": {
+    "booking": "बुकिंग",
+    "payment": "पेमेंट",
+    "services": "सेवा",
+    "totalAmount": "एकूण रक्कम",
+    "date": "तारीख",
+    "time": "वेळ",
+    "guests": "पाहुणे",
+    "eventType": "कार्यक्रमाचा प्रकार"
+  },
+  "payment": {
+    "paymentDetails": "पेमेंट तपशील",
+    "creditDebitCard": "क्रेडिट/डेबिट कार्ड",
+    "upiPayment": "यूपीआई पेमेंट",
+    "selectUpiApp": "यूपीआई ऍप निवडा",
+    "pay": "पेमेंट करा",
+    "bookingSummary": "बुकिंग सारांश",
+    "paymentSuccessful": "पेमेंट यशस्वी! तुमची बुकिंग पुष्टी झाली आहे.",
+    "paymentError": "तुमच्या पेमेंट प्रक्रियेत त्रुटी आली आहे. कृपया पुन्हा प्रयत्न करा."
+  }
+} 
